@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+<head>
+<title> JavaScript Example 4 </title> 
+</head>
+<body>
+Field 1:<input type= "text" id="field1" value= "This will magically reappear!">
+Field2: <input type= "text" id = "field2"><br><br>
+
+<button onclick="myFunction()">Copy Text</button>
+<script>
+function myFunction() {
+document.getElementById("field2").value= document.getElementById("field1").value;
+}
+</script>
+
+</body>
+<html>
